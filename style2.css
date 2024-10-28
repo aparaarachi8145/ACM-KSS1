@@ -1,0 +1,38 @@
+
+.container{
+    
+    background-color:lightcoral;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: solid black;
+    border-radius: 20%;
+}
+div{
+    padding: 10px;
+    display: block;
+    justify-content:center ;
+}
+div:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+button{
+    padding: 20px;
+    border: solid black;
+    border-radius: 8%;
+}
+button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color:plum;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin: 20px;
+}
